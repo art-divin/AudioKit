@@ -102,7 +102,9 @@ public class AudioEngine {
     }
 
     /// Empty initializer
-    public init() {}
+    public init(avAudioEngine: AVAudioEngine) {
+        self.avAudioEngine = avAudioEngine
+    }
 
     /// Output node
     public var output: Node? {
