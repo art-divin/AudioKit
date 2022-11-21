@@ -102,7 +102,7 @@ public class AudioEngine {
     }
 
     /// Empty initializer
-    public init(avAudioEngine: AVAudioEngine) {
+    public init(avAudioEngine: AVAudioEngine = AVAudioEngine()) {
         self.avAudioEngine = avAudioEngine
     }
 
