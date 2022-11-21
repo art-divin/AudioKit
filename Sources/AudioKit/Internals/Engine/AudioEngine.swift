@@ -54,7 +54,7 @@ public extension AVAudioMixerNode {
 /// AudioKit's wrapper for AVAudioEngine
 public class AudioEngine {
     /// Internal AVAudioEngine
-    public let avEngine = AVAudioEngine()
+    public let avEngine: AVAudioEngine
 
     // maximum number of frames the engine will be asked to render in any single render call
     let maximumFrameCount: AVAudioFrameCount = 1024
